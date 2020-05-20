@@ -6,3 +6,5 @@ Link to deployed: https://jrivera-31.github.io/portfolio-update/
 - Updated about me
 - Updated navbar
 - Fixed links
+
+<img src="assets/index.png">
