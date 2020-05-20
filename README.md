@@ -8,3 +8,8 @@ Link to deployed: https://jrivera-31.github.io/portfolio-update/
 - Fixed links
 
 <img src="assets/index.png">
+<br>
+<img src="assets/portfolio.png">
+<br>
+<img src="assets/contact.png">
+<br>
