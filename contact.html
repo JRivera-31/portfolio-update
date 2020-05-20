@@ -15,26 +15,62 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <style>
+      body {
+        background-color: #282828;
+      }
+
+      #name {
+        background-color: #190061;
+        color: #5cdb95;
+      }
+
+      #nav{
+        background-color: #0c0032;
+      }
+
+      #footer {
+        background-color: #0c0032;
+      }
+
+      .card {
+        background-color: #0c0032;
+        color: #5cdb95;
+      }
+
+      .card-header {
+        background-color: #0c0032;
+        color: #5cdb95;
+      }
+
+      a {
+        color: white
+      }
+      
+      button {
+
+      }
+    </style>
     <title>About</title>
   </head>
-  <body class="bg-light">
-    <div class="row no-gutters bg-white shadow-sm">
-      <div class="col-md-6 text-center text-white">
-        <h1 class="float-md-left ml-md-3 p-4 mb-0 bg-info">Josh Rivera</h1>
+  <body>
+    <div id="nav" class="row no-gutters shadow-sm">
+      <div class="col-md-6 text-center">
+        <h1 id="name" class="float-md-left ml-md-3 p-4 mb-0">Josh Rivera</h1>
       </div>
       <div
         class="col-md-6 d-flex flex-row justify-content-center align-items-center"
       >
-        <a class="m-3 ml-md-auto text-muted" href="index.html">About</a> |
-        <a class="m-3 text-muted" href="portfolio.html">Portfolio</a> |
-        <a class="m-3 text-muted" href="contact.html">Contact</a>
+      <a class="m-3 ml-md-auto text-light" href="index.html">About</a><p class="text-muted m-3">|</p>
+      <a class="m-3 text-light" href="portfolio.html">Portfolio</a> <p class="text-muted m-3">|</p>
+      <a class="m-3 text-light" href="contact.html">Contact</a>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8">
         <div class="card m-3 mb-5">
-          <div class="card-body text-muted">
-            <h1 class="text-info">Contact</h1>
+          <div class="card-body">
+            <h1>Contact</h1>
             <hr />
             <form>
                 <div class="form-group">
@@ -49,6 +85,7 @@
                   <label for="exampleFormControlTextarea1">Messsage</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+                <button class="rounded p-10px" type="submit">Submit</button>
             </form>
         </div>
       </div>
@@ -56,7 +93,8 @@
     <div class="row">
       <div class="col">
         <div
-          class="copyright border-top border-info bg-secondary py-4 text-center text-white fixed-bottom"
+        id="footer"  
+        class="copyright border-top border-primary py-4 text-center text-muted fixed-bottom"
           style="border-top-width: thick !important;"
         >
           &copy; Copyright Josh Rivera
