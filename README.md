@@ -8,7 +8,7 @@ Link to deployed: https://jrivera-31.github.io/portfolio-update/
 - Fixed links
 - Added sticky footers
 
-<img src="assets/index.png">
+<img src="assets/home.png">
 <br>
 <img src="assets/portfolio.png">
 <br>
