@@ -6,10 +6,10 @@ Link to deployed: https://jrivera-31.github.io/portfolio-update/
 - Updated about me
 - Updated navbar
 - Fixed links
+- Added sticky footers
 
 <img src="assets/index.png">
 <br>
 <img src="assets/portfolio.png">
 <br>
 <img src="assets/contact.png">
-<br>
