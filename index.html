@@ -31,32 +31,62 @@
           width: 33%;
         }
       }
+
+      body {
+        background-color: #282828;
+      }
+
+      h1 {
+        background-color: #190061;
+        color: #5cdb95;
+      }
+
+      #nav{
+        background-color: #0c0032;
+      }
+
+      #footer {
+        background-color: #0c0032;
+      }
+
+      .card {
+        background-color: #0c0032;
+      }
+
+      .card-header {
+        background-color: #0c0032;
+        color: #5cdb95;
+      }
+
+      a {
+        color: white
+      }
     </style>
     <title>About</title>
   </head>
-  <body class="bg-light">
-    <div class="row no-gutters bg-white shadow-sm">
-      <div class="col-md-6 text-center text-white">
-        <h1 class="float-md-left ml-md-3 p-4 mb-0 bg-info">Josh Rivera</h1>
+  <body>
+    <div id="nav" class="row no-gutters shadow-sm">
+      <div class="col-md-6 text-center">
+        <h1 class="float-md-left ml-md-3 p-4 mb-0 rounded-bottom">Josh Rivera</h1>
       </div>
       <div
         class="col-md-6 d-flex flex-row justify-content-center align-items-center"
       >
-        <a class="m-3 ml-md-auto text-muted" href="index.html">About</a> |
-        <a class="m-3 text-muted" href="portfolio.html">Portfolio</a> |
-        <a class="m-3 text-muted" href="contact.html">Contact</a>
+      <a class="m-3 ml-md-auto" href="index.html">About</a><p class="text-muted m-3">|</p>
+      <a class="m-3" href="portfolio.html">Portfolio</a> <p class="text-muted m-3">|</p>
+      <a class="m-3" href="contact.html">Contact</a>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8">
         <div class="card m-3 mb-5">
           <div class="card-body text-muted">
-            <h1 class="text-info">About me</h1>
-            <hr />
+            <h1 class="card-header">About me</h1>
+            <br>
             <div class="img-wrapper float-md-left mr-md-3 mb-3">
               <img
                 src="assets/IMGME.JPG"
-                class="img-fluid mb-3"
+                class="img-fluid mb-3 rounded"
                 alt="Josh Rivera"
                 style="height: 500px; width: 500px;"
               />
@@ -85,7 +115,8 @@
     <div class="row">
       <div class="col">
         <div
-          class="copyright border-top border-info bg-secondary py-4 text-center text-white fixed-bottom"
+          id="footer"
+          class="copyright border-top border-primary py-4 text-center text-muted sticky-footer"
           style="border-top-width: thick !important;"
         >
           &copy; Copyright Josh Rivera
